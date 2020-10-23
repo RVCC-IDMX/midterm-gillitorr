@@ -1,2 +1,78 @@
 /* Journey to the Center of the Earth Practicum */
 /* Gillian Torrecampo */
+
+header {
+    border: 3px solid #886644;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: inset 24px 16px 16px #000000;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+nav {
+    border: 3px solid #886644;
+    box-shadow: inset 4px 4px 12px #000000;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+
+}
+
+main {
+    border: 3px solid #886644;
+    box-shadow: inset 4px 4px 12px #000000;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;;
+
+
+}
+
+aside {
+    border: 3px solid #886644;
+    box-shadow: inset 4px 4px 12px #000000;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+
+}
+
+footer {
+    border: 3px solid #886644;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: inset 4px 4px 12px #000000;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
