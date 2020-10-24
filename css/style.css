@@ -1,78 +1,175 @@
 /* Journey to the Center of the Earth Practicum */
 /* Gillian Torrecampo */
 
+/* header */
 header {
     border: 3px solid #886644;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    box-shadow: inset 24px 16px 16px #000000;
+    box-shadow: inset 27px 24px 20px #000000;
+    padding: 2px 20px;
+    margin-left: -2px;
+    margin-right: -2px;
     margin-bottom: 5px;
-    margin-top:5px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
+    background-image: url("../img/cave.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+header h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+
+}
+
+/* nav */
 nav {
     border: 3px solid #886644;
     box-shadow: inset 4px 4px 12px #000000;
-    margin-bottom: 5px;
-    margin-top:5px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 5px;
+    margin: 5px -2px;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+}
 
+nav ul {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+nav li {
+    display: inline;
+    border-right: 3px double #000000;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
+nav li:nth-child(4) {
+    border-right: 0px;
+}
+
+/* main */
 main {
     border: 3px solid #886644;
     box-shadow: inset 4px 4px 12px #000000;
-    margin-bottom: 5px;
-    margin-top:5px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;;
-
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 5px -2px;
+    background-color: #FFFFFF;
+    opacity: 0.75;
 
 }
 
+/* aside */
 aside {
     border: 3px solid #886644;
     box-shadow: inset 4px 4px 12px #000000;
-    margin-bottom: 5px;
-    margin-top:5px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
-
+    padding-bottom: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 5px -2px;
+    background-color: #FFFFFF;
+    opacity: 0.75;
 
 }
+
+.submission {
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+}
+
+
+.opinion {
+    text-align: center;
+
+}
+
+.signature {
+    text-align: right;
+    font-style: italic;
+
+}
+
+
+
+/* footer */
 
 footer {
     border: 3px solid #886644;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow: inset 4px 4px 12px #000000;
-    margin-bottom: 5px;
-    margin-top:5px;
-    margin-right: 3px;
-    margin-left: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 25px;
+    margin: 5px -2px;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    background-color: #FFFFFF;
+    opacity: 0.75;
 
+}
+
+
+
+span:lang(it), span:lang(fr), span:lang(is) {
+    font-style: italic;
+
+}
+
+.character {
+    font-weight: bold;
+}
+
+h2 {
+ 
+    border-bottom: 1px dashed #000000;
+}
+
+body {
+    background-image: linear-gradient(#765729, #000000);
+    
+}
+
+#cover {
+    float: left;
+    max-width: 65%;
+    padding-right: 20px;
+
+}
+
+figure img {
+    float: center;
+    max-width: 100%;
+
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+p:first-of-type::first-line {
+    font-size: 20px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+    font-size: medium;
+}
+
+a:hover {
+    color: #A52A2A;
+    text-decoration: underline;
 }
